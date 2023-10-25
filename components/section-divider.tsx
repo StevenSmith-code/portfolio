@@ -8,9 +8,7 @@ function SectionDivider() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
       className="bg-gray-200 my-24 h-26 w-1 rounded-full hidden sm:block"
-    >
-      SectionDivider
-    </motion.div>
+    ></motion.div>
   );
 }
 
