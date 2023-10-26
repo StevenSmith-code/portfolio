@@ -37,7 +37,7 @@ export const experiencesData = [
     title: "Customer Representative",
     location: "Remote",
     description:
-      "I worked as a CSR at verison helping users navigate and solve whatever problems that are needed.",
+      "I worked as a CSR at Verizon helping users navigate and solve whatever problems that are needed.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
