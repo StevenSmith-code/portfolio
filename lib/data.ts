@@ -1,9 +1,11 @@
 import React from "react";
+
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+
+import rmtdevImg from "@/public/freelance.png";
 import corpcommentImg from "@/public/LMS-app.png";
-import rmtdevImg from "@/public/lashes-app.png";
 
 export const links = [
   {
@@ -39,7 +41,7 @@ export const experiencesData = [
     description:
       "I worked as a CSR at Verizon helping users navigate and solve whatever problems that are needed.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2021",
   },
   {
     title: "Graduated bootcamp",
@@ -71,7 +73,7 @@ export const projectsData = [
     title: "Lashes Appointment Booking App",
     description:
       "App I worked on for a client where users can book an appointment to get their eyelashes done.",
-    tags: ["React", "Tailwind", "Context API", "Ruby on Rails", "SQL"],
+    tags: ["React", "Tailwind", "NextJS", "Prisma", "Node.js", "SQL"],
     imageUrl: rmtdevImg,
   },
 ] as const;

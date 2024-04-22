@@ -1,14 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
+
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
+import { HiDownload } from "react-icons/hi";
+
 import { useActiveSectionContext } from "@/app/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -91,7 +93,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Steven-Smith-Resume.pdf"
           download
         >
           Download CV{" "}
