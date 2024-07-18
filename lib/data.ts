@@ -59,6 +59,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
+  {
+    title: "Software Engineer @ WeVote",
+    location: "Remote",
+    description:
+      "Doing volunteer work for WeVote has given me experience on how to use React, Javascript, and Django in a professional environment as well as using JIRA and SCRUM.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
