@@ -71,6 +71,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Corinna-ai",
+    description: "A chatbot service that helps businesses handle any customers questions or would like to set up an appointment",
+    tags:["React", "Next.js", "SQL", "Tailwind", "Prisma", "Node.js"],
+    imageUrl: rmtdevImg,
+  },
+  {
     title: "Learning Management System",
     description:
       "This is an Google Classroom like project where users can purchase/sell courses via stripe",
