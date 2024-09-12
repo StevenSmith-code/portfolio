@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 import rmtdevImg from "@/public/freelance.png";
 import corpcommentImg from "@/public/LMS-app.png";
+import corrinaAi from "@/public/app-ui.png"
 
 export const links = [
   {
@@ -74,7 +75,7 @@ export const projectsData = [
     title: "Corinna-ai",
     description: "A chatbot service that helps businesses handle any customers questions or would like to set up an appointment",
     tags:["React", "Next.js", "SQL", "Tailwind", "Prisma", "Node.js"],
-    imageUrl: rmtdevImg,
+    imageUrl: corrinaAi,
   },
   {
     title: "Learning Management System",
